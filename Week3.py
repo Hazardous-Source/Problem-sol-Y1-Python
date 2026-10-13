@@ -7,13 +7,23 @@
 #     Num2 = Num2 + 1
 #     print(f"{Num2} Apples Removed")
 
-obstacle = int(input("How Many Obstacles Should I Avoid? "))
-ob2 = 0
+# obstacle = int(input("How Many Obstacles Should I Avoid? "))
+# ob2 = 0
+#
+# while obstacle > 0:
+#     obstacle = obstacle -1
+#     ob2 = ob2 + 1
+#     print(f"Avoiding . . . Done! {ob2} Obstacles Avoided. ")
+#
+# print("All Obstacles Avoided.")
 
-while obstacle > 0:
-    obstacle = obstacle -1
-    ob2 = ob2 + 1
-    print(f"Avoiding . . . Done! {ob2} Obstacles Avoided. ")
+Charge = int(input("How Many Bars Should Be Charged? "))
+Charge2 = 0
 
-print("All Obstacles Avoided.")
+while Charge > 0:
+    Charge2 = Charge2 + 1
+    Charge = Charge - 1
+    print(f"Charging {"█ " * Charge2}")
+
+print("The Battery Is Fully Charged")
 
