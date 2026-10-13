@@ -17,13 +17,20 @@
 #
 # print("All Obstacles Avoided.")
 
-Charge = int(input("How Many Bars Should Be Charged? "))
-Charge2 = 0
+# Charge = int(input("How Many Bars Should Be Charged? "))
+# Charge2 = 0
+#
+# while Charge > 0:
+#     Charge2 = Charge2 + 1
+#     Charge = Charge - 1
+#     print(f"Charging {"█ " * Charge2}")
+#
+# print("The Battery Is Fully Charged")
 
-while Charge > 0:
-    Charge2 = Charge2 + 1
-    Charge = Charge - 1
-    print(f"Charging {"█ " * Charge2}")
+phrase = input("Please Enter A Phrase: ")
 
-print("The Battery Is Fully Charged")
+hello = 0
 
+while hello < len(phrase):
+    print("Hi ", end="")
+    hello = hello + 1
